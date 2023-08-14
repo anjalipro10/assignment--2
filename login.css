@@ -1,0 +1,13 @@
+
+
+body{
+    background-image: url("dog12.jpg");
+     background-position: center;
+    background-size: cover;
+    height:auto ;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat; 
+    
+}
+

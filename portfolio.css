@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0%;
+    
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-image: url("dog12.jpg");
+     background-position: center;
+    background-size: cover;
+    height:auto ;
+    width: 100%;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 2;
+    height: 10vh;
+}
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgb(209, 206, 206);
+    border-radius: 3px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 5ms;
+    font-size: bold;
+}
+
+.form-box:hover{
+   box-shadow: 0 0 50px rgb(175, 175, 177);
+}
+
+.form-box .input-box{
+    position: relative;
+    margin: 30px 0px;
+    width: 310px;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.form-box .input-box input{
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0px 20px 0px 5px;
+    color: black;
+}
+
+input::placeholder{
+    color:  white;
+}
+
+.button{
+    color: white;
+    background-color: #293265;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+     cursor: pointer;
+}
+
+.group{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group span a{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.group a:focus{
+    text-decoration: underline;
+    
+}
+
+i{
+    color: #fff;
+    position: absolute;
+    top: 13px;
+    right: 0px;
+}
+
+#result{
+    color: red;
+    font-weight: 600;
+    position: relative;
+    top: 25px;
+}
+
+.popup{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 264px;
+    right: 17.5%;
+     transform: translate(-50%,-50%) scale(0);
+      transition: transform .4s ,top .4s; 
+     visibility: visible;    
+    text-align: center; 
+    padding: 1px 30px 30px;
+    height: 276px;
+    color: black;
+    align-items: center;
+}
+
+.popup ion-icon{
+    color: green;
+    font-size: 50px;
+    align-items: center;
+    margin-top: 16px;
+
+}
+
+.popup button{
+    width: 100%;
+    background-color: green;
+    margin-top: 19px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.1);
+}
+
+.popup a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+ .open-slide{
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+} 
+
+ input .btn{
+    color: #fff;
+}
